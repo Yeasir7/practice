@@ -21,6 +21,14 @@ body{
     border: 0;
 }
 
+.unversal-heading{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-size: 35px;    
+font-weight: 700;
+line-height: normal;
+}
+
 .unversal-discreption{
     color: var(--Dark-03, #757575);
 font-size: 18px;
@@ -76,9 +84,6 @@ nav a{
 }
 
 /* banner related style */
-.banner-content .pic{
-    width: 500px;
-}
 .banner{
     display: flex;
     padding: 30px 30px 0px 150px;
@@ -102,4 +107,80 @@ margin-bottom: 20px;
 
 .banner-discription{
     margin-bottom: 20px;
+}
+
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+}
+
+/* about */
+#about{
+    padding: 130px;
+    margin: 130px 0;
+    border-radius: 10px;
+background: #FFF8F3;
+}
+
+.about-info-container{
+    display: flex;
+   justify-content: space-around;
+}
+
+/* what i do related style */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+#description{
+    padding: 30px 110px;
+}
+
+.skill{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+}
+
+/* resume style */
+
+.resume-item{
+    
+}
+
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+
+.resume-heading{
+    color: var(--Dark-02, #474747);
+font-size: 30px;
+font-weight: 700;
+line-height: normal;    
+}
+
+.resume-item-title{
+    color: var(--Dark-02, #474747);
+font-size: 25px;
+font-weight: 700;
+line-height: normal;
+}
+
+.resume-item-institution{
+    color: var(--Dark-03, #757575);
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+}
+
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
 }
